@@ -40,8 +40,6 @@ a = Analysis(
         'tkinter',          # GUI не нужен
         'pynput',           # хоткей через WH_KEYBOARD_LL
         'rich', 'pygments', 'mdurl', 'markdown_it_py',  # красивый вывод HF hub
-        'tqdm',            # прогресс-бар загрузки
-        'av', 'av.libs',   # аудио/видео — передаём numpy напрямую
         'cffi', 'pycparser',  # FFI — не используется dictate напрямую
         'hf_xet',          # альтернативный протокол скачивания HF
     ],
